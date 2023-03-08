@@ -1,0 +1,90 @@
+* {
+    font-family: "Sono";
+}
+
+h1 {
+    font-family: "Press Start 2P";
+    color: #142d4c;
+    font-size: 100px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: #ececec;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li:hover{
+    background-color: goldenrod;
+}
+
+li {
+    display: inline-block;
+    background-color: #385170;
+    font-size: large;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a {
+    display: block;
+    padding: 10px 50px;
+    color: #ececec;
+}
+
+body{
+    background-color: #9fd3c7;
+}
+
+table {
+    margin-top: 25px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+
+
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+
+}
+
+table thead {
+    background-color: #385170;
+    color: #ececec;
+    height: 60px;
+    font-size: large;
+}
+
+table tbody tr:hover {
+    background-color: #9fd3c7;
+}
+
+table td {
+    height: 30px;
+}
+
+table td:nth-child(1){
+    background-color: #ececec;
+}
+
+table td:nth-child(3){
+    text-align: justify;
+}
+
+
